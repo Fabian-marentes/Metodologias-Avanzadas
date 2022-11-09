@@ -1,0 +1,24 @@
+com/guru99/bank/pruebas/pages/NewCustomerPage.java
+ com.guru99.bank.pruebas.pages.NewCustomerPage
+com/guru99/bank/pruebas/models/Usuario.java
+ com.guru99.bank.pruebas.models.Usuario
+com/guru99/bank/pruebas/pages/NewAccountPage.java
+ com.guru99.bank.pruebas.pages.NewAccountPage
+com/guru99/bank/pruebas/driver/SeleniumWebDriver.java
+ com.guru99.bank.pruebas.driver.SeleniumWebDriver
+com/guru99/bank/pruebas/models/NewCustomer.java
+ com.guru99.bank.pruebas.models.NewCustomer
+com/guru99/bank/pruebas/steps/NewCustomerStep.java
+ com.guru99.bank.pruebas.steps.NewCustomerStep
+com/guru99/bank/pruebas/utils/Espera.java
+ com.guru99.bank.pruebas.utils.Espera
+com/guru99/bank/pruebas/models/NewAccount.java
+ com.guru99.bank.pruebas.models.NewAccount
+com/guru99/bank/pruebas/steps/LoginStep.java
+ com.guru99.bank.pruebas.steps.LoginStep
+com/guru99/bank/pruebas/utils/VariableGlobales.java
+ com.guru99.bank.pruebas.utils.VariableGlobales
+com/guru99/bank/pruebas/pages/LoginPage.java
+ com.guru99.bank.pruebas.pages.LoginPage
+com/guru99/bank/pruebas/steps/NewAccountStep.java
+ com.guru99.bank.pruebas.steps.NewAccountStep
