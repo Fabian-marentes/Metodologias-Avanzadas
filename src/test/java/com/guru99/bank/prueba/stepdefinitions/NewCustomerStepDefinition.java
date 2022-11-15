@@ -16,7 +16,7 @@ public class NewCustomerStepDefinition {
     @Steps
     //instanciamos la clase login step la cual permite interactuar con la clase LoginStepDefinition
     NewCustomerStep newCustomerStep = new NewCustomerStep();
-
+/*
     //En el When asignamos las funcionalidades que quiero que se realicen dentro de la pagina
     @When("^I enter the client's data$")
     public void iEnterTheClientSData(List<NewCustomer> usuarioDato) throws InterruptedException {
@@ -41,6 +41,6 @@ public class NewCustomerStepDefinition {
     public void youShouldSeeTheUserCreated() {
         driver.quit();
     }
-
+*/
 
 }

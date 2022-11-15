@@ -41,6 +41,18 @@ public class NewCustomerPage {
     //boton subtim
     private static By btnSubtim = By.name("sub");
 
+    public static By btnPublicidad = By.xpath("//div[@id='ad_position_box']");
+
+    public static By btnAdposition = By.id("ad_position_box");
+
+    public static By getBtnAdposition() {
+        return btnAdposition;
+    }
+
+    public static By getBtnPublicidad() {
+        return btnPublicidad;
+    }
+
     //Los get son utilizados para mostrar el valor de una propiedad o atributo de un objeto
     public static By getBtnCustomer() {
         return btnCustomer;

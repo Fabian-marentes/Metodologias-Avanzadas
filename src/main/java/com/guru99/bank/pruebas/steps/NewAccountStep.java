@@ -1,13 +1,17 @@
 package com.guru99.bank.pruebas.steps;
 
 import com.guru99.bank.pruebas.driver.SeleniumWebDriver;
+import com.guru99.bank.pruebas.pages.LoginPage;
 import com.guru99.bank.pruebas.pages.NewAccountPage;
+import com.guru99.bank.pruebas.utils.VariableGlobales;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class NewAccountStep {
 
     public static WebDriver driver;
+    LoginPage loginPage= new LoginPage();
+
     //Escribe el texto en cualquier campo que tenga habilitada la opcion de escribir en el
     public void escribirEnTexto(By elemento, String texto) {
         SeleniumWebDriver.driver.findElement(elemento).sendKeys(texto);
@@ -15,7 +19,7 @@ public class NewAccountStep {
 
     //Selecciona el elemento que se desee
     public void clicEnElemento(By elemento) {
-        SeleniumWebDriver.driver.findElement(elemento).click();
+        driver.findElement(elemento).click();
     }
 
     //-------------------------------------------------------------------------------------------------------
@@ -25,7 +29,7 @@ public class NewAccountStep {
     //Escribe el deposito y da click en el boton de suptin para crear la cuenta
     public void escribirCustomerId(String txt) {
 
-        clicEnElemento(NewAccountPage.getBtnNewAccount());
+        //VariableGlobales.clickJS(driver, NewAccountPage.getBtnCurrent());
         escribirEnTexto(NewAccountPage.getTxtCustomer(), txt);
         clicEnElemento(NewAccountPage.getBtnCurrent());
         escribirEnTexto(NewAccountPage.getTxtInitialDeposit(), txt);

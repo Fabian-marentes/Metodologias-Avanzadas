@@ -19,7 +19,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
         //los snippets son utilizados mas por apariencia y tambien para mantener la sintaxis de java
         snippets = SnippetType.CAMELCASE,
-        tags = "@NewAccount")
+        tags = "@NewCustomer"
+)
 
 public class LoginRunner {
 }

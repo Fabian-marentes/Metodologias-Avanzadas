@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name=": HU-001 Login" skipped="0" tests="1" time="0.74" timestamp="2022-11-08 09:50:06"><testcase name="Como usuario ingreso los datos de la nueva cuenta"><error type="java.lang.NullPointerException"/><system-err>null&#13;
-com.guru99.bank.pruebas.steps.NewAccountStep.clicEnElemento(NewAccountStep.java:18)&#13;
-com.guru99.bank.pruebas.steps.NewAccountStep.escribirCustomerId(NewAccountStep.java:27)&#13;
-com.guru99.bank.prueba.stepdefinitions.LoginStepDefinition.ingresaLosDatosDeLaCuentaQueSeraCreada(LoginStepDefinition.java:57)&#13;
-✽.ingresa los datos de la cuenta que sera creada(src/test/resources/features/Login.feature:17)&#13;
-</system-err></testcase></testsuite>
