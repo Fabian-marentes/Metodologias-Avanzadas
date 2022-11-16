@@ -1,8 +1,8 @@
-com/guru99/bank/prueba/runners/LoginRunner.java
- com.guru99.bank.prueba.runners.LoginRunner
-com/guru99/bank/prueba/runners/NewCustomerRunner.java
- com.guru99.bank.prueba.runners.NewCustomerRunner
 com/guru99/bank/prueba/stepdefinitions/LoginStepDefinition.java
  com.guru99.bank.prueba.stepdefinitions.LoginStepDefinition
-com/guru99/bank/prueba/stepdefinitions/NewCustomerStepDefinition.java
- com.guru99.bank.prueba.stepdefinitions.NewCustomerStepDefinition
+com/guru99/bank/prueba/runners/LoginRunner.java
+ com.guru99.bank.prueba.runners.LoginRunner
+com/guru99/bank/prueba/stepdefinitions/NewAccountStepDefinition.java
+ com.guru99.bank.prueba.stepdefinitions.NewAccountStepDefinition
+com/guru99/bank/prueba/runners/NewAccountRunner.java
+ com.guru99.bank.prueba.runners.NewAccountRunner

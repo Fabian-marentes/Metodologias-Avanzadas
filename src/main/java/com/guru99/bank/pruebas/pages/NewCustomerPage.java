@@ -1,104 +1,94 @@
 package com.guru99.bank.pruebas.pages;
 
+import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
-public class NewCustomerPage {
+public class NewCustomerPage extends PageObject {
 
     //Esta parte contiene los localizadores de tipo xpath y name
     //los cuales seleccionaran y llenaran los campos vacios con el ID para poder crear una nueva cuenta
 
-    private static By btnCustomer = By.xpath("//ul//a[@href='addcustomerpage.php']");
-    //campo usuario
-    private static By txtName = By.xpath("//input[@name='name']");
+    public By btnCustomer = By.xpath("//ul//a[@href='addcustomerpage.php']");
+    public By clientePage = By.xpath("//*[text()='New Customer']");
+    public By nameInput = By.xpath("//input[@name='name']");
+    public By genderClick = By.xpath("//input[@value='f']");
+    public By birthdayInput = By.xpath("//input[@name='dob']");
+    public By addressInput = By.name("addr");
+    public By cityInput = By.name("city");
+    public By stateInput = By.name("state");
+    public By pinInput = By.name("pinno");
+    public By mobileInput = By.name("telephoneno");
+    public By emailInput = By.name("emailid");
+    public By passwordInput = By.name("password");
+    public By btnSubmit = By.name("sub");
+    public By customerIDCustomerRegistered = By.xpath("(//table[@id='customer']//tr//td)[1]");
+    public By customerIDText = By.xpath("(//table[@id='customer']//tr//td)[5]");
 
-    //genero
-    private static By fieldGender = By.xpath("//input[@value='f']");
+    public By txtPassword = By.name("password");
+    public By btnSubtim = By.name("sub");
 
-    //escribe fecha
-    private static By txtDate = By.xpath("//input[@name='dob']");
+    public By txtName = By.xpath("//input[@name='name']");
+    public By fieldGender = By.xpath("//input[@value='f']");
+    public By txtDate = By.xpath("//input[@name='dob']");
+    public By txtAdress = By.name("addr");
+    public By txtCity = By.name("city");
+    public By txtState = By.name("state");
+    public By txtPin = By.name("pinno");
+    public By txtPhone = By.name("telephoneno");
+    public By txtEmail = By.name("emailid");
+    public By bntScroll=By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[14]/td/a");
 
-    //direccion4
-    private static By txtAdress = By.name("addr");
 
-    //ciudad
-    private static By txtCity = By.name("city");
-
-    //estado
-    private static By txtState = By.name("state");
-
-    //pin
-    private static By txtPin = By.name("pinno");
-
-    //telefono
-    private static By txtPhone = By.name("telephoneno");
-
-    //correo electronico
-    private static By txtEmail = By.name("emailid");
-
-    //nueva contraseña
-    private static By txtPassword = By.name("password");
-
-    //boton subtim
-    private static By btnSubtim = By.name("sub");
-
-    public static By btnPublicidad = By.xpath("//div[@id='ad_position_box']");
-
-    public static By btnAdposition = By.id("ad_position_box");
-
-    public static By getBtnAdposition() {
-        return btnAdposition;
+    public By getBntScroll() {
+        return bntScroll;
     }
 
-    public static By getBtnPublicidad() {
-        return btnPublicidad;
-    }
-
-    //Los get son utilizados para mostrar el valor de una propiedad o atributo de un objeto
-    public static By getBtnCustomer() {
+    public By getBtnCustomer() {
         return btnCustomer;
     }
 
-    public static By getTxtName() {
-        return txtName;
-    }
-
-    public static By getFieldGender() {
-        return fieldGender;
-    }
-
-    public static By getTxtDate() {
-        return txtDate;
-    }
-
-    public static By getTxtAdress() {
-        return txtAdress;
-    }
-
-    public static By getTxtCity() {
-        return txtCity;
-    }
-
-    public static By getTxtState() {
-        return txtState;
-    }
-
-    public static By getTxtPin() {
-        return txtPin;
-    }
-
-    public static By getTxtPhone() {
-        return txtPhone;
-    }
-
-    public static By getTxtEmail() {
-        return txtEmail;
-    }
-
-    public static By getTxtPassword() {
+    public By getTxtPassword() {
         return txtPassword;
     }
 
-    public static By getBtnSubtim() {
+    public By getBtnSubtim() {
         return btnSubtim;
     }
+
+    public By getTxtName() {
+        return txtName;
+    }
+
+    public By getFieldGender() {
+        return fieldGender;
+    }
+
+    public By getTxtDate() {
+        return txtDate;
+    }
+
+    public By getTxtAdress() {
+        return txtAdress;
+    }
+
+    public By getTxtCity() {
+        return txtCity;
+    }
+
+    public By getTxtState() {
+        return txtState;
+    }
+
+    public By getTxtPin() {
+        return txtPin;
+    }
+
+    public By getTxtPhone() {
+        return txtPhone;
+    }
+
+    public By getTxtEmail() {
+        return txtEmail;
+    }
+
 }

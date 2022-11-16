@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Creación historia de usuario" skipped="0" tests="1" time="16.91" timestamp="2022-11-15 02:51:29"><testcase name="Ingreso el nuevo usuario en la página"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.guru99.bank.pruebas.pages.NewCustomerPage.setNameInput(NewCustomerPage.java:46)&#13;
+com.guru99.bank.pruebas.steps.NewCustomerStep.IngresarDatosCliente(NewCustomerStep.java:73)&#13;
+com.guru99.bank.prueba.stepdefinitions.LoginStepDefinition.ingresaLosDatosDelClienteProximoACrear(LoginStepDefinition.java:75)&#13;
+✽.ingresa los datos del cliente proximo a crear(src/test/resources/features/NewCustomer.feature:14)&#13;
+</system-err></testcase></testsuite>

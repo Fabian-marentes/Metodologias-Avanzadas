@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a84545d-ca7d-43bf-b41c-759f65d47a5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/models/DataInjection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/runners/NewAccountRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/stepdefinitions/NewAccountStepDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/test-results/test/TEST-com.guru99.bank.prueba.runners.NewAccountRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_1029339792060310130_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_1044674769520726737_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_1195866066099858217_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_1473985608389593795_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_1685875976244177966_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_1733433410260993419_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_204398246194738787_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_2054146392669335156_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_2354376090587231828_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_3763655140745750124_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_3950035893221628931_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_429303491569937455_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_4334159114569946049_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_4383641765225961094_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_517132025583310993_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_5175244890460678175_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_6019912334268274085_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_6232652749385580349_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_6456312531931413251_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_6665087293667223751_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_6668603265334343517_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_7330612149303228222_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_7670480811392137966_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_7699633807841932429_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_7852051044892501141_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build/tmp/test/jar_extract_8116458078250277210_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/models/DataInjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/stepdefinitions/NewAccountStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/06b39ffdaebc9546dd511dbe2ef9e573f78e147ad4356105eb926a57462fbc48.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/09aaf28ecbc096f2b3e4fdefbb4c43ca2afe2194c34700af570af5fa85e52d14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/09aaf28ecbc096f2b3e4fdefbb4c43ca2afe2194c34700af570af5fa85e52d14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/0b9b95ff2429d8ec33815d8ae115d70d3806b825dc23a0575d0b468cad6a33d8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/0b9b95ff2429d8ec33815d8ae115d70d3806b825dc23a0575d0b468cad6a33d8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/14f0e0968bec299e0e2ab10fb565a012702a8fe173036b09a199d9923739365c.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2c8eadb1a26c4e9ae07cfe97db8e6478d27d42a5add391818d6ae3eeda1b0cbe.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2c8eadb1a26c4e9ae07cfe97db8e6478d27d42a5add391818d6ae3eeda1b0cbe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/3701af58a302b2bf2666b1f3b37bd34ba3164de4d03476cc5d7b473b5c92c827.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/3911126e234677491a78be921f63d2d3b1d6c23597d47d7c7518a8eb77d6cfea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/3911126e234677491a78be921f63d2d3b1d6c23597d47d7c7518a8eb77d6cfea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/3f9517c8daea355674fca280d27fc4fad46f45027f0b51712cb5b8e2f581c706.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/421e26c564d28cae18ec28c1bd924fb63ab4e87b15246a9ba0ee2e95c6b8101d.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4253067240efcb03dfe250bed29fb98c059e4739b052c7a2b92587652564aa28.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/439f565e336c86ded0818fb34f8d426b921488d1dad11c5faffebdcf0c79ea50.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/439f565e336c86ded0818fb34f8d426b921488d1dad11c5faffebdcf0c79ea50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4942ce9310de451f7a6039e77b0a981ba19edc181c202c174efae717e618db54.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4942ce9310de451f7a6039e77b0a981ba19edc181c202c174efae717e618db54.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4a38bf8b526fc15b1a6a80897ac998049136b93292c3d8a89317a8eeedd08e9d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/56146dbb5354ad093f331b241fea9a180e83676a433d901c6552328daf928a39.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/56146dbb5354ad093f331b241fea9a180e83676a433d901c6552328daf928a39.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/57bfa7ab35c4ba44ee4686ae726cf0aafb7be2d3c0c54dd6e349e79bfdfdc391.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/66713a61493c253d842566f86359e35d65c92cd8a57bdcfaa2f6c58008c17f9b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/67fff5c376c3ed146fa2124ca3c0289fa89c49beceb46f5444f2069a65b13175.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/685daf55664e4db7a44971470ff0d188bb6d1d8811dd8b79152fe727e4480b83.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/685daf55664e4db7a44971470ff0d188bb6d1d8811dd8b79152fe727e4480b83.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/732720bb2e5cdb16a9bd2928558229ae289707579a68a1ca22cb6f28255dfdb4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/755ef07084aa82cadf80a8860742e440610cdf1d0b5a57ba3cc02b9fa676bb0b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/79ab5f6f870ad75c41de89fbcd50501cd66373af0cab178e306b7c929327fa47.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/926ecee2a0179db458bf7b3e2dba14e6b9a76eb786413ec74bdcf2206ed65e08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9ab3cbffbe4bdec559a34204f3a78a4246bb53bcabb78323f1ac400f65caa527.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9c991537c4c2423f90e12435240771034a254aaa61d6f171abacd42c257f1ff1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9c991537c4c2423f90e12435240771034a254aaa61d6f171abacd42c257f1ff1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/SERENITY-JUNIT-9c991537c4c2423f90e12435240771034a254aaa61d6f171abacd42c257f1ff1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/SERENITY-JUNIT-d084c2bcc49ec1d4e3eaa92839d27e775c7c6e6c0efe4f8dd019282399681e00.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/SERENITY-JUNIT-e1cd0d1c1add4bc3a3cbdf7cc2e5ce4335f272818d0980bcd91dc93ac2dad8ed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/a0cc6382cd477d38562afbf621bae23f7956033080a74444cc1063daf4b8f514.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/a6001414759b82f87ba097121b094d92af5d23b26e91c4d168bf6d0f41ec8f65.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/b2c93b0275c7c06f836aa1fcd3c8a256b3aef0eed20012616392d6e3b7c5fdbc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/b8c868168ef318eb7d290f0ee674d5a5689e8604a0eec3e0efa4fbcd1d86b93c.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/b8c868168ef318eb7d290f0ee674d5a5689e8604a0eec3e0efa4fbcd1d86b93c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/bbaf21495ff02c02421cc4ed94add301da8b2f16e134e6bddc033a787831d720.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/be337c1c239e82a24cbcebe6179f10ae08da344ac9e5916b9830a501fe291891.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/be9e9bce2f27188dc418dc293819ba998894320e515dd1a0b71053946b605cfe.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/be9e9bce2f27188dc418dc293819ba998894320e515dd1a0b71053946b605cfe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/bf41d82923c2cd22dedd9588e2c76db7a2bb96aa57c0b63edb545ada8512048a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/c2993000d573aa4e2d669fe331228c3b22b42dd18fa92588a7149ca135c8f388.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/d084c2bcc49ec1d4e3eaa92839d27e775c7c6e6c0efe4f8dd019282399681e00.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/d084c2bcc49ec1d4e3eaa92839d27e775c7c6e6c0efe4f8dd019282399681e00.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/db1bf5d006e7b175cc3ac766b8ae474841a28b690a9734d86010169136b702a8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/db1bf5d006e7b175cc3ac766b8ae474841a28b690a9734d86010169136b702a8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/e1cd0d1c1add4bc3a3cbdf7cc2e5ce4335f272818d0980bcd91dc93ac2dad8ed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/e1cd0d1c1add4bc3a3cbdf7cc2e5ce4335f272818d0980bcd91dc93ac2dad8ed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/e5f3732616ee5a6a33267584164ac550ee53ded896ffd7b33fe1f2fd04fd7b5d.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/f09777dfebbbb21dc554483e6b2db615ccf2f629540ab11478b5e112d1b74c98.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target/site/serenity/f09777dfebbbb21dc554483e6b2db615ccf2f629540ab11478b5e112d1b74c98.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/models/NewCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/models/NewCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/pages/NewAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/pages/NewAccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/pages/NewCustomerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/pages/NewCustomerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/steps/LoginStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/steps/NewAccountStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/steps/NewAccountStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/steps/NewCustomerStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/main/com/guru99/bank/pruebas/steps/NewCustomerStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/runners/LoginRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/runners/LoginRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/runners/NewCustomerRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/stepdefinitions/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/stepdefinitions/LoginStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/classes/java/test/com/guru99/bank/prueba/stepdefinitions/NewCustomerStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/reports/tests/test/classes/HU-001#20Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/reports/tests/test/classes/HU-001#20Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/reports/tests/test/classes/com.guru99.bank.prueba.runners.LoginRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/reports/tests/test/classes/com.guru99.bank.prueba.runners.NewAccountRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/reports/tests/test/packages/com.guru99.bank.prueba.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/reports/tests/test/packages/com.guru99.bank.prueba.runners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/resources/test/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/resources/test/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/resources/test/features/NewCustomer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/NewAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/test-results/test/TEST-HU-001#20Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/test-results/test/TEST-HU-001#20Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/test-results/test/TEST-com.guru99.bank.prueba.runners.LoginRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/models/NewCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/models/NewCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/pages/NewAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/pages/NewAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/pages/NewCustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/pages/NewCustomerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/steps/NewAccountStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/steps/NewAccountStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/steps/NewCustomerStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../main/java/com/guru99/bank/pruebas/steps/NewCustomerStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/runners/LoginRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/runners/LoginRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/runners/NewCustomerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/runners/NewAccountRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/stepdefinitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/stepdefinitions/LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/guru99/bank/prueba/stepdefinitions/NewCustomerStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewCustomer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/resources/test/features/NewAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/17edce01088eb19197dbc964f55f7723e8b12f89a624562ec879ae2a262b89fe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/17edce01088eb19197dbc964f55f7723e8b12f89a624562ec879ae2a262b89fe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/17edce01088eb19197dbc964f55f7723e8b12f89a624562ec879ae2a262b89fe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/17edce01088eb19197dbc964f55f7723e8b12f89a624562ec879ae2a262b89fe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/1f73e8cd0e1940d29c2ebc89fab88ba05ecfbed798482d03d7607c23a29d5f1a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/1f73e8cd0e1940d29c2ebc89fab88ba05ecfbed798482d03d7607c23a29d5f1a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/1f73e8cd0e1940d29c2ebc89fab88ba05ecfbed798482d03d7607c23a29d5f1a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/1f73e8cd0e1940d29c2ebc89fab88ba05ecfbed798482d03d7607c23a29d5f1a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/2232e418813bfc09e3041a366135a82f816f41df42ac4901b6e12e0e7bb2f630.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2232e418813bfc09e3041a366135a82f816f41df42ac4901b6e12e0e7bb2f630.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/2232e418813bfc09e3041a366135a82f816f41df42ac4901b6e12e0e7bb2f630.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2232e418813bfc09e3041a366135a82f816f41df42ac4901b6e12e0e7bb2f630.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/22a92488e2bf162eb58f3f453b650dde0bab75a2b31234832f024f39b1c5f192.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/22a92488e2bf162eb58f3f453b650dde0bab75a2b31234832f024f39b1c5f192.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/25b7d7d38e698aa578fba6911f8c5506d6b53d8948a324ba359a07736331ead2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/25b7d7d38e698aa578fba6911f8c5506d6b53d8948a324ba359a07736331ead2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/25b7d7d38e698aa578fba6911f8c5506d6b53d8948a324ba359a07736331ead2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/25b7d7d38e698aa578fba6911f8c5506d6b53d8948a324ba359a07736331ead2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/2b56b574d89834f6aa192f59fa6627b776a6c288e09dbc7d06c356f5bad5b3c0.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2b56b574d89834f6aa192f59fa6627b776a6c288e09dbc7d06c356f5bad5b3c0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/2fbc07201e37c60eda295557be1f55f3aace63e7d5ea02c05cb666d08cc4cdb9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2fbc07201e37c60eda295557be1f55f3aace63e7d5ea02c05cb666d08cc4cdb9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/2fbc07201e37c60eda295557be1f55f3aace63e7d5ea02c05cb666d08cc4cdb9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/2fbc07201e37c60eda295557be1f55f3aace63e7d5ea02c05cb666d08cc4cdb9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/4292be9c41774b019c26233cba61adb9bec24c63d1fe2cb3fd9b3bceaff69e6b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4292be9c41774b019c26233cba61adb9bec24c63d1fe2cb3fd9b3bceaff69e6b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/4292be9c41774b019c26233cba61adb9bec24c63d1fe2cb3fd9b3bceaff69e6b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4292be9c41774b019c26233cba61adb9bec24c63d1fe2cb3fd9b3bceaff69e6b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/4b537608b70d6c6d1c3e5bd89ae9eb40d8bf6ca27b85af03f02ef1e2e65d1cc6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/4b537608b70d6c6d1c3e5bd89ae9eb40d8bf6ca27b85af03f02ef1e2e65d1cc6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/5fa03f201c765be75ab680c1c86f9b7fd17cdb85275dac75cd27de586e957eea.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/5fa03f201c765be75ab680c1c86f9b7fd17cdb85275dac75cd27de586e957eea.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/7000032b94c2f8de9316c9815a87dc573e83cc39248cb98a7af5388076b218e9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/7000032b94c2f8de9316c9815a87dc573e83cc39248cb98a7af5388076b218e9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/7942a2a2c3ec9307ffa1c509ad02562ae51da62067200578da740e5a05de888c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/7942a2a2c3ec9307ffa1c509ad02562ae51da62067200578da740e5a05de888c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/7e739f27ff90ff9aff6e7b30475405c24d22980bfbde00f1dcefe9f69165a44d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/7e739f27ff90ff9aff6e7b30475405c24d22980bfbde00f1dcefe9f69165a44d.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/7e739f27ff90ff9aff6e7b30475405c24d22980bfbde00f1dcefe9f69165a44d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/7e739f27ff90ff9aff6e7b30475405c24d22980bfbde00f1dcefe9f69165a44d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/803b7e4544293481f643635f72eb546df6e826a4c1034879047d7034ce9b160c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/803b7e4544293481f643635f72eb546df6e826a4c1034879047d7034ce9b160c.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/84d8aebe544d41d9011a750b385cbbf98ae1c2e26ec9b3c08c33c01558f93bee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/84d8aebe544d41d9011a750b385cbbf98ae1c2e26ec9b3c08c33c01558f93bee.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/84d8aebe544d41d9011a750b385cbbf98ae1c2e26ec9b3c08c33c01558f93bee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/84d8aebe544d41d9011a750b385cbbf98ae1c2e26ec9b3c08c33c01558f93bee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/92e1d6c1624a478523a1a73e4e4d19d2e9f0183b8d4220e60f0d0d75f4b9570b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/92e1d6c1624a478523a1a73e4e4d19d2e9f0183b8d4220e60f0d0d75f4b9570b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/9b0bfaf3fb86ed04d8c5c9c75aec8aebcb657b221e0125e48ff1c8130ad1f54b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9b0bfaf3fb86ed04d8c5c9c75aec8aebcb657b221e0125e48ff1c8130ad1f54b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/9b0bfaf3fb86ed04d8c5c9c75aec8aebcb657b221e0125e48ff1c8130ad1f54b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9b0bfaf3fb86ed04d8c5c9c75aec8aebcb657b221e0125e48ff1c8130ad1f54b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/9fdca81bb8e2a42ac4617f3a267f926b5f05f61f14f2c9924a200b823fc6a5b3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9fdca81bb8e2a42ac4617f3a267f926b5f05f61f14f2c9924a200b823fc6a5b3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/9fdca81bb8e2a42ac4617f3a267f926b5f05f61f14f2c9924a200b823fc6a5b3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/9fdca81bb8e2a42ac4617f3a267f926b5f05f61f14f2c9924a200b823fc6a5b3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/SERENITY-JUNIT-af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/SERENITY-JUNIT-af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/a9bb247db15c31183a4c3e3e73d187fb0249cb6502b82e36291ccca5b33ba41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/a9bb247db15c31183a4c3e3e73d187fb0249cb6502b82e36291ccca5b33ba41d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/b1ec2c6e358d7333d9f1fd2b90a54b9149e0ca943fbc1c44a9b68e019d16f67b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/b1ec2c6e358d7333d9f1fd2b90a54b9149e0ca943fbc1c44a9b68e019d16f67b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/ca5e9710e130a484a9d49d915652f8ae5d3d579fb9ed399d16bfcb099dc88add.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/ca5e9710e130a484a9d49d915652f8ae5d3d579fb9ed399d16bfcb099dc88add.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/d8f05aa74066eac4d2b5624e37459deefa6dc51cfc10b24910842aeb8bfb6d62.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/d8f05aa74066eac4d2b5624e37459deefa6dc51cfc10b24910842aeb8bfb6d62.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/dd81b805606db1a45946ed0c904dc1a954077276e2b18960fa5c87fa8d8524ca.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/dd81b805606db1a45946ed0c904dc1a954077276e2b18960fa5c87fa8d8524ca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/eda1b4362fcddf8d0d0eb2222a186c860f6218aae265dbb092cb3c53e82e6b64.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/eda1b4362fcddf8d0d0eb2222a186c860f6218aae265dbb092cb3c53e82e6b64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/fd10146e1bbf64accd22a9b85f432302e619a7f7279e73c29cb150ea1c37242a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/fd10146e1bbf64accd22a9b85f432302e619a7f7279e73c29cb150ea1c37242a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/fd10146e1bbf64accd22a9b85f432302e619a7f7279e73c29cb150ea1c37242a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/fd10146e1bbf64accd22a9b85f432302e619a7f7279e73c29cb150ea1c37242a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/site/serenity/summary.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2HdlW5paTDJjaj5t49dZeEVhYza" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a84545d-ca7d-43bf-b41c-759f65d47a5a" name="Default Changelist" comment="" />
+      <created>1668622870367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668622870367</updated>
+    </task>
+    <servers />
+  </component>
+</project>

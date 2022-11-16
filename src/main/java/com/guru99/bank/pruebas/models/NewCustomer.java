@@ -1,6 +1,12 @@
 package com.guru99.bank.pruebas.models;
 
-public class NewCustomer {
+import com.github.javafaker.Faker;
+import net.serenitybdd.core.pages.PageObject;
+
+import java.util.Locale;
+
+public class NewCustomer extends PageObject {
+
     //En esta clase se declararon los elementos de tipo string
     String nombre, genero, fecha, direccion, ciudad, estado, pin, telefono, correo, contrasena;
 
@@ -22,10 +28,12 @@ public class NewCustomer {
         this.contrasena = contrasena;
     }
 
-    //Los get son utilizados para mostrar el valor de una propiedad o atributo de un objeto
-
     public String getNombre() {
         return nombre;
+    }
+
+    public String getGenero() {
+        return genero;
     }
 
     public String getFecha() {
@@ -60,3 +68,5 @@ public class NewCustomer {
         return contrasena;
     }
 }
+
+

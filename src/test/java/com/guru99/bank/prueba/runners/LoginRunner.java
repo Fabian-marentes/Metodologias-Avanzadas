@@ -1,9 +1,9 @@
 package com.guru99.bank.prueba.runners;
 
-import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.runner.RunWith;
 
 //RunWith permite ejecutar en este caso las pruebas con cucumber y serenity.
 // donde serenity nos brinda varias cosas y entre esas esta que nos realiza evidencias del paso a paso
@@ -18,9 +18,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
         glue = "com/guru99/bank/prueba/stepdefinitions",
 
         //los snippets son utilizados mas por apariencia y tambien para mantener la sintaxis de java
-        snippets = SnippetType.CAMELCASE,
-        tags = "@NewCustomer"
-)
-
+        snippets = SnippetType.CAMELCASE)
 public class LoginRunner {
 }
