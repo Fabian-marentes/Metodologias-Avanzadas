@@ -1,7 +1,6 @@
 package com.guru99.bank.pruebas.models;
 
 public class NewAccount {
-
     //En esta clase se declararon los elementos de tipo string
     String id, deposito;
 

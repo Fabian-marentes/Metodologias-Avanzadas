@@ -9,6 +9,9 @@ public class LoginPage extends PageObject {
     public By txtUser = By.name("uid");
     public By txtPassword = By.name("password");
     public By btnLogIn = By.name("btnLogin");
+    public By txtCampoVacio = By.id("//label[contains(text(),'Password must not be blank')]");
+    public By customerIDCustomerRegistered = By.xpath("(//table[@id='customer']//tr//td)[1]");
+    public By customerIDText = By.xpath("(//table[@id='customer']//tr//td)[5]");
 
     //Los get son utilizados para mostrar el valor de una propiedad o atributo de un objeto
 

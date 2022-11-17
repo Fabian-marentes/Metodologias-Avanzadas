@@ -23,7 +23,7 @@ public class DataInjection {
         this.fechaCumpleañosDia = Integer.toString(faker.number().numberBetween(1,30));
         this.fechaCumpleañosMes = Integer.toString(faker.number().numberBetween(1,12));
         this.fechaCumpleañosA_o = Integer.toString(faker.number().numberBetween(1950,2021));
-        this.direccion = "Cra24 33 73";
+        this.direccion = "Cra 24 33 73";
         this.ciudad = faker.address().city();
         this.estado = faker.address().state();
         this.pin = Long.toString(faker.number().randomNumber(6,true));

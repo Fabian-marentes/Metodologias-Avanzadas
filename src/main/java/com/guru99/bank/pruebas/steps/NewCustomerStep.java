@@ -2,7 +2,6 @@ package com.guru99.bank.pruebas.steps;
 
 import com.guru99.bank.pruebas.driver.SeleniumWebDriver;
 import com.guru99.bank.pruebas.models.DataInjection;
-import com.guru99.bank.pruebas.pages.NewAccountPage;
 import com.guru99.bank.pruebas.pages.NewCustomerPage;
 import com.guru99.bank.pruebas.utils.Espera;
 import net.thucydides.core.annotations.Step;
@@ -13,6 +12,7 @@ public class NewCustomerStep {
 
     NewCustomerPage newCustomerPage = new NewCustomerPage();
     DataInjection dataInjection = new DataInjection();
+    WebDriver driver;
 
     //Escribe el texto en cualquier campo que tenga habilitada la opcion de escribir en el
     public void escribirEnTexto(By elemento, String texto) {
@@ -24,6 +24,10 @@ public class NewCustomerStep {
         clicEnElemento(newCustomerPage.getBtnCustomer());
     }
 
+    @Step
+    public void ClickCuenta() {
+        clicEnElemento(newCustomerPage.getBtnCustomer());
+    }
     //Selecciona el elemento que se desee
     public void clicEnElemento(By elemento) {
         SeleniumWebDriver.driver.findElement(elemento).click();
@@ -31,12 +35,14 @@ public class NewCustomerStep {
 
 
     //los metodos que tienen el nombre tipo: -escribir"Nombre"-, son utilizados para rellenar los campos vacios del formulario con informacion
-    public void ClickVentanaCliente(String txt) {
-        clicEnElemento(newCustomerPage.getBtnCustomer());
+
+    public void Scroll() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement Element = driver.findElement(By.linkText("Linux"));
+
+        //This will scroll the page till the element is found
+        js.executeScript("arguments[0].scrollIntoView();", Element);
     }
-
-
-    //los metodos que tienen el nombre tipo: -escribir"Nombre"-, son utilizados para rellenar los campos vacios del formulario con informacion
 
     public void escribirDato() {
 

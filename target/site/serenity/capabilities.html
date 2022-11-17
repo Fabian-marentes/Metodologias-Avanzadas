@@ -219,10 +219,10 @@
                                             </div>
                                             <script>
 
-                                                var labels = ['25%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '75%', ' ', ' ', ' '];
+                                                var labels = ['56%', ' ', '11%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '33%', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 3}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 5}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 3}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -263,15 +263,16 @@
                                                                         <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">25%</td>
+                                                <td class="automated-stats">5</td>
+                                                <td class="automated-stats">56%</td>
                                             </tr>
                                             <tr>
-                                                                    <td class="aggregate-result-count"><i
-                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
+                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
                                                                     </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">11%</td>
                                             </tr>
                                             <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -307,7 +308,7 @@
                                                                                 class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
                                                 <td class="automated-stats">3</td>
-                                                <td class="automated-stats">75%</td>
+                                                <td class="automated-stats">33%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -318,7 +319,7 @@
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">4</td>
+                                                <td class="automated-stats">9</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -340,11 +341,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>50s</td>
-                                                        <td> 23h  21m 47s</td>
-                                                        <td>6s</td>
+                                                        <td> 2m 27s</td>
+                                                        <td>1d  7h  41m 29s</td>
+                                                        <td>13ms</td>
+                                                        <td>36s</td>
                                                         <td>16s</td>
-                                                        <td>12s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -368,6 +369,22 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
+                                                <tr class="scenario-result PENDING">
+                                                    <td>
+                                                            <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="c3caea90a4194ef049633ffcf9d20c51f2bedfe931bbf02d6467050b2b560365.html">Inicio de sesion fallido</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>16:20:30</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
+                                                                style="display:none">PENDING</span>
+                                                    </td>
+                                                </tr>
                                                 <tr class="scenario-result SUCCESS">
                                                     <td>
                                                             <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
@@ -376,9 +393,41 @@
                                                             <a href="9c991537c4c2423f90e12435240771034a254aaa61d6f171abacd42c257f1ff1.html">Inicio de sesion exitoso</a>
                                                                (1 example)
                                                     </td>
-                                                    <td>3</td>
-                                                    <td>13:10:29</td>
-                                                    <td>00:13</td>
+                                                    <td>2</td>
+                                                    <td>21:35:43</td>
+                                                    <td>00:16</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="1b717612f5e1054d78dbea49c028053a53f48118abc0b1dcbd28ae973f5c28ba.html">Inicio de sesion campos erroneos</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>21:35:59</td>
+                                                    <td>00:12</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="c0d085a7aeecea5487351eb5748a43597b331020f20217bcf454ddb4b55a7444.html">Inicio de sesion campo en blanco</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>21:36:12</td>
+                                                    <td>00:11</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                 style="display:none">SUCCESS</span>
@@ -386,20 +435,51 @@
                                                 </tr>
                                                 <tr class="scenario-result ERROR">
                                                     <td>
-                                                            <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
+                                                            <a href="16f58a37a931da3b791f8954dfb236b8d319fa4220a7eb46dc441de0c3e30069.html">Cuenta y Cliente</a>
                                                     </td>
                                                     <td>
-                                                            <a href="af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.html">Ingreso el nuevo usuario en la página</a>
+                                                            <a href="09cb3392fd0bf9c1ddc9b6e67af3a0c1a3f4b2670ca26d5848a923bbd8c077fb.html">Como usuario ingreso los datos de la nueva cuenta</a>
+                                                               (1 example)
                                                     </td>
-                                                    <td>4</td>
-                                                    <td>14:11:46</td>
-                                                    <td>00:13</td>
+                                                    <td>2</td>
+                                                    <td>19:44:45</td>
+                                                    <td>00:06</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
                                                                 style="display:none">ERROR</span>
                                                     </td>
                                                 </tr>
                                                 <tr class="scenario-result ERROR">
+                                                    <td>
+                                                            <a href="16f58a37a931da3b791f8954dfb236b8d319fa4220a7eb46dc441de0c3e30069.html">Cuenta y Cliente</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="c54cd5b7052c9c5be3fe6b0d85674cf2afeb1c6470a7c673de174e1b5746e65b.html">Ingreso el nuevo usuario en la página</a>
+                                                    </td>
+                                                    <td>4</td>
+                                                    <td>20:19:41</td>
+                                                    <td>00:10</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
+                                                                style="display:none">ERROR</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="af3ddde7e23d999e295a0cacc8ee2e69c5ac1767173940b94f9bfb9de848c488.html">Ingreso el nuevo usuario en la página</a>
+                                                    </td>
+                                                    <td>4</td>
+                                                    <td>22:19:37</td>
+                                                    <td>00:36</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
                                                     <td>
                                                             <a href="fbc2d781c4fa993b9b5887134c0fd608434e0b57db1ab1f596816f05b561885a.html">HU-001 Login</a>
                                                     </td>
@@ -408,11 +488,11 @@
                                                                (1 example)
                                                     </td>
                                                     <td>2</td>
-                                                    <td>14:13:17</td>
-                                                    <td>00:06</td>
+                                                    <td>22:32:59</td>
+                                                    <td>00:36</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                style="display:none">ERROR</span>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
                                                     </td>
                                                 </tr>
                                                 <tr class="scenario-result ERROR">

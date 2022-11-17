@@ -18,6 +18,9 @@ import org.junit.runner.RunWith;
         glue = "com/guru99/bank/prueba/stepdefinitions",
 
         //los snippets son utilizados mas por apariencia y tambien para mantener la sintaxis de java
-        snippets = SnippetType.CAMELCASE)
+        snippets = SnippetType.CAMELCASE
+
+       //,tags = "@Exitoso"
+        )
 public class LoginRunner {
 }

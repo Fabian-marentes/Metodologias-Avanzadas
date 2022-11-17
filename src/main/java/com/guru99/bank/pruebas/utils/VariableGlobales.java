@@ -1,6 +1,7 @@
 package com.guru99.bank.pruebas.utils;
 
 import com.guru99.bank.pruebas.pages.LoginPage;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -49,10 +50,9 @@ public class VariableGlobales {
         }
     }
 
-    public void Scroll() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,800)");
-        //js.executeScript("arguments[0].scrollIntoView();", newCustomerPage.getBntScroll());
+
+    public static void validarIgual(By elementBy, String expectedText) {
+        Assert.assertEquals((elementBy), expectedText);
     }
 
 }

@@ -1,9 +1,9 @@
 package com.guru99.bank.pruebas.pages;
-
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;
 
-public class NewAccountPage extends PageObject {
+
+public class NewAccountPage extends PageObject{
 
     //Esta parte contiene los localizadores de tipo xpath
     //los cuales seleccionaran y llenaran los campos vacios con el ID para poder crear una nueva cuenta
@@ -14,13 +14,6 @@ public class NewAccountPage extends PageObject {
     private static By btnSubtim = By.xpath("//input[@name='button2']");
     private static By btnContinue = By.xpath("//a[contains(text(),'Continue')]");
 
-
-
-
-    public void setBtnNewAccount() {
-
-        getDriver().findElement(btnNewAccount).click();
-    }
     //Los get son utilizados para mostrar el valor de una propiedad o atributo de un objeto
     public static By getBtnNewAccount() {
         return btnNewAccount;
@@ -40,9 +33,5 @@ public class NewAccountPage extends PageObject {
 
     public static By getBtnSubtim() {
         return btnSubtim;
-    }
-
-    public static By getBtnContinue() {
-        return btnContinue;
     }
 }

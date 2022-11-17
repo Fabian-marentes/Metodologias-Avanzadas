@@ -28,45 +28,6 @@ public class NewCustomer extends PageObject {
         this.contrasena = contrasena;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public String getFecha() {
-        return fecha;
-    }
-
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public String getCiudad() {
-        return ciudad;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public String getPin() {
-        return pin;
-    }
-
-    public String getTelefono() {
-        return telefono;
-    }
-
-    public String getCorreo() {
-        return correo;
-    }
-
-    public String getContrasena() {
-        return contrasena;
-    }
 }
 
 
